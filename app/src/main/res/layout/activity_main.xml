@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_alertDialog"
+            android:layout_margin="12dp"
+            app:cardElevation="16dp"
+            android:backgroundTint="#C11750"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert Dialog"
+                android:textSize="16sp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_customDialog"
+            android:layout_margin="12dp"
+            android:elevation="16dp"
+            android:backgroundTint="#C11750"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom Dialog"
+                android:textSize="16sp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_fragmentDialog"
+            android:layout_margin="12dp"
+            android:elevation="16dp"
+            android:backgroundTint="#C11750"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fragment Dialog"
+                android:textSize="16sp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_DatePicker"
+            android:layout_margin="12dp"
+            android:elevation="16dp"
+            android:backgroundTint="#C11750"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DatePicker Dialog"
+                android:textSize="16sp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_timePickerDialog"
+            android:layout_margin="12dp"
+            android:elevation="16dp"
+            android:backgroundTint="#C11750"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TimePicker Dialog"
+                android:textSize="16sp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_bottom_sheetDialog"
+            android:layout_margin="12dp"
+            android:elevation="16dp"
+            android:backgroundTint="#C11750"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BottomSheet Dialog"
+                android:textSize="16sp"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_snackBar"
+            android:layout_margin="12dp"
+            android:elevation="16dp"
+            android:backgroundTint="#C11750"
+            android:layout_width="match_parent"
+            app:cardCornerRadius="8dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:paddingStart="32dp"
+                android:paddingEnd="32dp"
+                android:paddingTop="16dp"
+                android:paddingBottom="16dp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Snackbar"
+                android:textSize="16sp"/>
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
